@@ -1,0 +1,5 @@
+Why Lodash?
+
+Iterating arrays, objects, & strings
+Manipulating & testing values
+Creating composite functions
