@@ -1,0 +1,28 @@
+### GET COMMENTS
+GET http://localhost:3000/
+
+### NEW COMMENT
+POST http://localhost:3000/
+content-type: application/json
+
+{
+    "name": "test2",
+    "email": "test2@gmail.com",
+    "text": "Test 2",
+    "date": "2003-09-22T00:15:11.000+00:00"
+}
+
+
+### DELETE COMMENT
+DELETE http://localhost:3000/5a9427648b0beebeb6957c7a
+
+### PUT COMMENT
+PUT http://localhost:3000/61d2532297406e3cc3661295
+content-type: application/json
+
+{
+    "name": "test22",
+    "email": "test22@gmail.com",
+    "text": "Test 22",
+    "date": "2003-09-22T00:15:11.000+00:00"
+}
